@@ -1,10 +1,11 @@
 'strict'
 
-const React = require('react')
+import React from 'react'
 
 const Title = React.createClass({
     render: function(){
-        return React.createElement('h1',null, 'Titulo')
+        return <h1>titulo</h1>
     }
 })
-module.exports = Title
+
+export default Title
